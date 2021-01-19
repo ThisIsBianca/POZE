@@ -1,3 +1,5 @@
+//Class for the particles of the explosion. When the body joints collide with the circles of the projection, the circles explode and create particles.  
+
 class Particle {
   float r = 15;
   PVector pos,speed,grav; 
