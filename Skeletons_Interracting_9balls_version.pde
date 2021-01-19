@@ -1,5 +1,5 @@
 /*
-The original sketch is taken from: 
+The original sketch which maps ou the body is taken from: 
 
 Thomas Sanchez Lengeling.
  http://codigogenerativo.com/
@@ -8,6 +8,14 @@ Thomas Sanchez Lengeling.
 
  Skeleton color map example.
  Skeleton (x,y) positions are mapped to match the color Frame
+ 
+ -----------
+ This code was further built upon b Irina Bianca Serban for the game POZE. 
+ 
+ In this file, all the media is loaded and the graphics and dynamics of the game are created. 
+ The rules are the following: the body of each user is drawn as circles for joints and lines for bones. 
+ On the screen there are 9 squares which the players need to cover with their joints simoultaneously. 
+ When the squares are covered, they explode and are redrawn at specified positions.
  */
 
 import KinectPV2.KJoint;
